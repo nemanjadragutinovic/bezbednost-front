@@ -4,6 +4,7 @@ import HomePage from '../components/HomePage.vue'
 import Admin from '../components/Admin.vue'
 import CreateForm from '../components/CreateForm.vue'
 import CertList from '../components/CertList.vue'
+import CertProfile from '../components/CertProfile.vue'
 
 Vue.use(VueRouter)
 
@@ -27,7 +28,13 @@ const routes = [
     path: '/certList',
     name: 'cert-list',
     component: CertList
+  },
+  {
+    path: '/CertProfile/:id',
+    name: 'cert-profile',
+    component: CertProfile
   }
+
 ]
 
 const router = new VueRouter({
