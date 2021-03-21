@@ -124,7 +124,20 @@
 
                 <br/>
 
-                
+                 <label class="typo__label">Дигитални потпис?</label>
+                <input type="checkbox"  v-model="extension.digitalSignature" style="mx-4; margin-left: 1%">
+
+                <br/>     
+                      
+                <label class="typo__label">Шифрирање?</label>
+                <input type="checkbox"  v-model="extension.keyEncipherment" style="mx-4; margin-left: 1%">
+
+                <br/>
+                      
+                <label class="typo__label">Кључни споразум?</label>
+                <input type="checkbox"  v-model="extension.keyAgreement" style="mx-4; margin-left: 1%">
+
+                <br/>
 
                 
 
