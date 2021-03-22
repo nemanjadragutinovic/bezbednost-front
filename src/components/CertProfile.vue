@@ -75,13 +75,10 @@
 
             <div  class="row">
             <div class="col">
-             <button class="col mt-4 button valid btn btn-primary" size="sm" @click="checkValidity()">Check certificate validity</button> 
+             <button class="col mt-4 button valid btn btn-primary" size="sm" @click="checkValidity()">Валидност сертификата</button> 
             </div>  
             <div class="col">
-            <button class="col mt-4 button btn btn-primary" size="ml" @click="revokeCertificate()">Revoke certificate</button>
-            </div>
-            <div class="col">
-            <button class="col mt-4 button btn btn-primary" size="ml" @click="downloadCertificate()">Download certificate</button> 
+            <button class="col mt-4 button btn btn-primary" size="ml" @click="revokeCertificate()">Поништи сертификат</button>
             </div>
             </div>
             <div>

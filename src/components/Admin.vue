@@ -104,7 +104,7 @@
                 </div>
 
                 <div class="form-group" v-if="provera === 'Intermediate certificate'">
-                    <label>Intermediate certificate</label>
+                    <label>Изадавач сертификата</label>
                     <div>
                        
                          <b-form-select @change="getDani" style="width:384px; margin-left:1%" v-model="selektovaniCA">
@@ -123,22 +123,6 @@
                 <input type="checkbox" @change="getDani" v-model="check" style="mx-4; margin-left: 1%">
 
                 <br/>
-
-                 <label class="typo__label">Дигитални потпис?</label>
-                <input type="checkbox"  v-model="extension.digitalSignature" style="mx-4; margin-left: 1%">
-
-                <br/>     
-                      
-                <label class="typo__label">Шифрирање?</label>
-                <input type="checkbox"  v-model="extension.keyEncipherment" style="mx-4; margin-left: 1%">
-
-                <br/>
-                      
-                <label class="typo__label">Кључни споразум?</label>
-                <input type="checkbox"  v-model="extension.keyAgreement" style="mx-4; margin-left: 1%">
-
-                <br/>
-
                 
 
                 <div class="form-group">
